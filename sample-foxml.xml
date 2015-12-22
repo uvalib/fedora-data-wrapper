@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject VERSION="1.1" PID="uva-lib:2172187"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Half-title"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="tracksysProd"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-10-07T19:22:34.793Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-10-07T19:22:50.297Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-10-07T19:22:34.793Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>technicalMetadata</audit:componentID>
+<audit:responsibility>tracksysProd</audit:responsibility>
+<audit:date>2013-10-07T19:22:47.428Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC2">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>descMetadata</audit:componentID>
+<audit:responsibility>tracksysProd</audit:responsibility>
+<audit:date>2013-10-07T19:22:48.468Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC3">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>content</audit:componentID>
+<audit:responsibility>tracksysProd</audit:responsibility>
+<audit:date>2013-10-07T19:22:48.933Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC4">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DC</audit:componentID>
+<audit:responsibility>tracksysProd</audit:responsibility>
+<audit:date>2013-10-07T19:22:49.351Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC5">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>tracksysProd</audit:responsibility>
+<audit:date>2013-10-07T19:22:49.418Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC6">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>solrArchive</audit:componentID>
+<audit:responsibility>tracksysProd</audit:responsibility>
+<audit:date>2013-10-07T19:22:50.297Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="DC1.0" LABEL="Dublin Core Record for this object" CREATED="2013-10-07T19:22:34.793Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="378">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>Half-title</dc:title>
+  <dc:identifier>uva-lib:2172187</dc:identifier>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DC.1" LABEL="Dublin Core Record" CREATED="2013-10-07T19:22:49.351Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="827">
+<foxml:contentDigest TYPE="MD5" DIGEST="8689b81b59db0e847fefc82a18769009"/>
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">uva-lib:2172187</dc:identifier>
+  <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">uri: uva-lib:2172187</dc:identifier>
+  <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">25989</dc:identifier>
+  <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">905786</dc:identifier>
+  <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">000025989_0012.tif</dc:identifier>
+  <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema">Half-title</dc:title>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="technicalMetadata" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="technicalMetadata.0" LABEL="Technical metadata" CREATED="2013-10-07T19:22:47.428Z" MIMETYPE="text/xml" SIZE="2009">
+<foxml:contentDigest TYPE="MD5" DIGEST="f2008cc4f681f7cbb53af434d45f150d"/>
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="uva-lib:2172187+technicalMetadata+technicalMetadata.0"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="descMetadata" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="descMetadata.0" LABEL="MODS descriptive metadata" CREATED="2013-10-07T19:22:48.468Z" MIMETYPE="text/xml" SIZE="934">
+<foxml:contentDigest TYPE="MD5" DIGEST="feb7a882dbe1686c6676f684eaf1f001"/>
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="uva-lib:2172187+descMetadata+descMetadata.0"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="content" STATE="A" CONTROL_GROUP="M" VERSIONABLE="false">
+<foxml:datastreamVersion ID="content.0" LABEL="JPEG-2000 Binary" CREATED="2013-10-07T19:22:48.933Z" MIMETYPE="image/jp2" SIZE="2526625">
+<foxml:contentDigest TYPE="MD5" DIGEST="d3e5e3bfdf4818cdc0f4b08351d3d051"/>
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="uva-lib:2172187+content+content.0"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="RELS-EXT.0" LABEL="Object Relationships" CREATED="2013-10-07T19:22:49.418Z" MIMETYPE="text/xml" SIZE="858">
+<foxml:contentDigest TYPE="MD5" DIGEST="983d5cff55e4a56621245ef642a337a2"/>
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="uva-lib:2172187+RELS-EXT+RELS-EXT.0"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="solrArchive" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="solrArchive.0" LABEL="Index Data for Posting to Solr" CREATED="2013-10-07T19:22:50.297Z" MIMETYPE="text/xml" SIZE="3897">
+<foxml:contentDigest TYPE="MD5" DIGEST="f0692e7a3633c990ba20c5c14fd3d91d"/>
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="uva-lib:2172187+solrArchive+solrArchive.0"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject>
